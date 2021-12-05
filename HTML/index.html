@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nick's Personal Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="/CSS/index.css">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/CSS/index.css">
+  </head>
+  <body>
     <section>
         <!--navigation-------------------->
         <nav>
@@ -58,6 +59,7 @@
     <div class="services">
         <div class="services-text">
         <p>Projects</p>
+        <br>
         <p>Required Projects</p>
         <p>I graduated from Eleven Fifty Academy Software Development Bootcamp
             on November 18, 2021. Below are a sample of a few of the projects I 
@@ -67,15 +69,86 @@
         </p>
     </div>
     <!--Box----------------------->
-    <div class="box-container">
-        <div class="box-1">
-            <span>1</span>
-            <p class="heading">Bookmark WEB MVC</p>
-            <p></p>
-            <button></button>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card" style="box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);">
+            <a href="https://github.com/Nick-Stoner1150/Bookmark.WebMVC">
+            <img src="/images/bookmark image for port.PNG" class="card-img-top" alt="bookmark screenshot" >
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Bookmark Web MVC</h5>
+              <p class="card-text">Bookmark is a .NET Framework Web MVC that allows a user to keep track of their personal book library!</p>
+              <a href="https://github.com/Nick-Stoner1150/Bookmark.WebMVC">
+                  <img src="/images/GitHub-Mark-32px.png" alt="git hub link">
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="box-2"></div>
-        <div class="box-3"></div>
+        <div class="col">
+          <div class="card" style="box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);">
+            <a href="https://github.com/Nick-Stoner1150/ConsoleAppChallenges">
+            <img src="/images/console app challenges.PNG" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Console Applications</h5>
+              <p class="card-text">A handful of console applications in C# that solve a variety of small business problems.</p>
+              <a href="https://github.com/Nick-Stoner1150/ConsoleAppChallenges">
+                <img src="/images/GitHub-Mark-32px.png" alt="git hub link">
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);">
+            <a href="https://github.com/Nick-Stoner1150/COVID19Tracker">
+            <img src="/images/CovidTracker.PNG" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Covid19 Tracker</h5>
+              <p class="card-text">Covid19 Tracker is a .NET Web API that allows a business to track the impact of Covid19 on its employees</p>
+              <a href="https://github.com/Nick-Stoner1150/COVID19Tracker">
+                <img src="/images/GitHub-Mark-32px.png" alt="git hub link">
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);">
+            <a href="https://codepen.io/nick-stoner1150/pen/OJpxQQg?editors=1100">
+            <img src="/images/creature project.PNG" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">CSS Creature</h5>
+              <p class="card-text">I created Grogu from Disney's "The Mandalorian" using HTML and CSS during my gold badge.</p>
+              <a href="https://codepen.io/nick-stoner1150/pen/OJpxQQg?editors=1100">
+                <img src="/images/1298732_codepen_icon (1).png" alt="git hub link">
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+
+      <!--Contact Me------------------------>
+      <div class="contact-me">
+      </div>
+
+      <footer>
+          <p>Contact Me</p>
+          <p>If you would like to talk further about my projects, my aspirations, or anything in between, feel free to reach out to me directly</p>
+          <button class="contact-button">Contact Me</button>
+          <div class="social-icons">
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+          </div>
+          <p>Copyright by Nick Stoner</p>
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

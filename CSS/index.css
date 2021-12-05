@@ -13,7 +13,7 @@ a {
 }
 section {
     width: 100%;
-    height: 95vh;
+    height: 75vh;
     background-image: url(/images/split\ in\ half.jpg);
     background-repeat: none;
     background-size: cover;
@@ -114,7 +114,7 @@ button:active {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 .about-container {
-    width: 80%;
+    width: 50%;
     height: 330px;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -232,5 +232,72 @@ button:active {
     font-family: calibri;
     font-size: 23px;
     line-height: 0px;
+
+}
+.contact-me {
+    width: 100%;
+    height: 280px;
+    background-color: #353945;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-button {
+    width: 200px;
+    height: 40px;
+    background-color: #161515;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+footer p {
+    font-family: calibri;
+
+}
+footer p:nth-child(1){
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7E7d7d;
+    width: 600px;
+    text-align: center;
+}
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 10%;
+}
+.social-icons {
+    display: flex;
+}
+.copyright {
+    color: #565555;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
 
 }
